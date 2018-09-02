@@ -6,8 +6,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   entry: './src/index.js',
   output: {
-    filename: this.mode === 'development' ? 'main.js' : 'onemob-js-plugin.js',
-    path: this.mode === 'development' ? path.resolve(__dirname, 'dev') : path.resolve(__dirname, 'dist'),
+    filename: 'main.js',
+    path: path.resolve(__dirname, 'dist'),
   },
   module: {
     rules: [
@@ -34,7 +34,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: 'dev/index.html',
+      template: 'dist/index.html',
     }),
   ],
 };

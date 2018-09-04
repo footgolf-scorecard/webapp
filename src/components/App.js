@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
+import './../styles/index.css';
+import NavBar from './navBar';
 
 class App extends Component {
-  constructor() {
-    super();
-  }
-
   render() {
     return (
-      <div>hey fg scorecard</div>
+      <div>
+        <NavBar />
+      </div>
     );
   }
 };

@@ -1,0 +1,11 @@
+.navWide {
+  margin: 10%;
+  background-color: blue;
+
+}
+
+.fgButton {
+  float: right;
+  /*margin-bottom: 2px;
+  padding-bottom: 2px;*/
+}

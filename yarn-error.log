@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/Cellar/node/8.7.0/bin/node /usr/local/bin/yarn
+  /usr/local/Cellar/node/8.7.0/bin/node /usr/local/bin/yarn add react-native-elements
 
 PATH: 
   /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
